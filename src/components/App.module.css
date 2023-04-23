@@ -1,0 +1,20 @@
+.container {
+  max-width: 400px;
+  border: 4px solid rgb(0, 132, 255);
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: aliceblue;
+}
+
+.title {
+  font-size: 36px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.contacts__title {
+  font-size: 24px;
+  padding: 20px 0;
+  text-align: center;
+}

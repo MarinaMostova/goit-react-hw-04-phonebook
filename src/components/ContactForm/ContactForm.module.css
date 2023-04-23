@@ -1,0 +1,43 @@
+.form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 10px;
+  border: 1px solid black;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.form__label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form__input {
+  width: 150px;
+  padding: 5px 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.form__input:focus {
+  outline: none;
+  border-color: blue;
+}
+
+.form__button {
+  display: block;
+  width: 150px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #006eff;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.form__button:hover {
+  background-color: blue;
+}

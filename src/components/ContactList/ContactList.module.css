@@ -1,0 +1,24 @@
+.list {
+  margin: 0 auto;
+}
+.item {
+  display: flex;
+  margin-bottom: 15px;
+}
+.text {
+  width: 240px;
+  margin-right: 25px;
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #006eff;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: blue;
+}
